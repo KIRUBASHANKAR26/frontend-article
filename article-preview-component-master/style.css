@@ -67,6 +67,7 @@ a > img{
     font-size: 13px;
     padding-bottom: 2em;
     display: inline-block;
+    cursor:pointer
     
 }
 a > i{
@@ -79,6 +80,7 @@ a > i{
     margin-top: -.8em;
     position: relative;
     z-index: 1;
+    cursor:pointer;
 }
 .icon-container{
     display: flex;
@@ -92,6 +94,7 @@ a > i{
     justify-content: flex-start;
     position: absolute;
     opacity: 0;
+    cursor:pointer;
 }
 .icon-container i{
     font-size: 2em;
@@ -160,6 +163,7 @@ a > i{
         color: hsl(214, 17%, 51%);
         letter-spacing: 2px;
         line-height: 25px;
+        cursor:pointer;
     }
     .icon-container::before{
         content: '';
